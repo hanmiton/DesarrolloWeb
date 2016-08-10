@@ -89,7 +89,17 @@ background (color de fondo caja)
 
 Tipos de fuentes
 	googel fonts
+	www.google.com/fonts
+
+CDN (costum deliveried network)
+
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Allerta' rel='stylesheet' type='text/css'>
+	como usar en css
+	font-family: 'Montserrat', sans-serif;
+</head>
 
 	</head>
 }
 
+con | podermo cargar varias hojas de estilos en un solo request
