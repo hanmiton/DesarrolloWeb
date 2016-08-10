@@ -1,0 +1,28 @@
+/*selector etiqueta*/
+section{
+	background-repeat: valor;
+}
+
+/*selector descendente*/
+article h3{
+	color: green; /*color de la letra */
+}
+
+/*selectores de clase*/
+.clase{/*cuando se desea reutilizar los estilso pra vairos elementos*/
+	..............:;
+}
+
+/*selectores por id*/
+#portada{
+	...........;
+}
+
+
+.titulo{
+	font-size: 17px; (tamaño de fuetne px o em)
+	background: rgba(rojo,verde,azul,canalAlpha) (puende ser #exa, rgb(), rgba(), nombre);
+	background-image: url('ruta'); (agregar una imagen como fondo);
+	color: white; (es el color de la letra);
+}
+
