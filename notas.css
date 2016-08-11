@@ -24,5 +24,15 @@ article h3{
 	background: rgba(rojo,verde,azul,canalAlpha) (puende ser #exa, rgb(), rgba(), nombre);
 	background-image: url('ruta'); (agregar una imagen como fondo);
 	color: white; (es el color de la letra);
+	display: inline-block; (en linea y en bloque toma tamaño dle contenido del elemento)
+	border: 2px solid red;(tamaño, tipo, color);
+	padding: 10px (margen interno manillas relos desde arriba)
+	float: right; los elementos se hacen flotantes y pueden ir a cualqueir lado
+	overflow: hidden; hace que se oculte lo q se desborada por float
+	float: rompe el modelo de caja;
+	position: relative absolute fixed;(relative: relativoa un elemento; absolute: se ubica ahsta su elemento padre con posicion relativa; fixed: el elemento se mueve incluso cuando se hace scroll; )
+	border-radius: 10px 10px 10px 10px;(manijas del reloj y si es cuadrado a redondon con 50%);
+	none (permite desacrivar una propiedad);
+	text-decoration: none; (que no este subrayado)
 }
 

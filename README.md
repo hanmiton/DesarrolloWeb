@@ -103,3 +103,22 @@ CDN (costum deliveried network)
 }
 
 con | podermo cargar varias hojas de estilos en un solo request
+
+posicionamiento
+	inlineblodk
+		se pone al lado
+	block
+		ocupa toda la fila
+
+modleo caja
+	todo en css es una caja
+		contenido
+		padding (margen interior antes del borde)
+		border
+		marign(margen posteniro despu de borde)
+		top
+una etiqueta peude tenr multiples clases
+<div></div> etiqueta q divide pero no tien valor semantico
+<footer></footer> etiqueta que se va ubicar en la parte final del body
+<a href="tel:+573024456678"></a> (con :tel se peude llaamr una vez q se pulse en la ancla)
+<a href="mailto:h@gmail.com"></a>(con mailto: escojemo par enviar un correo)
