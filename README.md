@@ -122,3 +122,36 @@ una etiqueta peude tenr multiples clases
 <footer></footer> etiqueta que se va ubicar en la parte final del body
 <a href="tel:+573024456678"></a> (con :tel se peude llaamr una vez q se pulse en la ancla)
 <a href="mailto:h@gmail.com"></a>(con mailto: escojemo par enviar un correo)
+<form></form>(etiqueta para realizar formularios dentro del DOM)
+<label for=""></label>(label es el tecto que lleva un input for incia de qeu input)
+<input type="text" name="" required="">(etiquetta para poder ingresa run texto type tipo de input, required= que se reqeurido)
+<input type="email" name=""> (que ingrese un email)
+<input type="" name="" value=""> ( conrenido por defecto)
+<input placeholder="">(para tener undescripcion que va en el texto)
+
+<label for="nombre"></label>(for es por sis se da click va al input que tiene el id nombrey hace focus)
+<input type="text" id="nombre">
+<input type="radio" name="sexo"> para un seleccion multiple
+(sname sirve para comunicar entre etiqeuitas en especial radio para ver que se selecciono)
+<input  name="">(name es como se lo va enviar la servidor)
+<input type="checkbox" name="">(para cajas de seleccion multiples)(for se comunica ocn el id del input)(name se los comunica para enviar a que se le envia)
+<textarea></textarea>(para ingresar textos mas grandes)
+<input type="submit" value="Enviar"> para hacer un submit del form
+
+Flexbox
+ display flex pone nos elementos uno al costado del otro
+ y los elemento se redimencionan
+
+Enlazar paginas 
+
+index.html#guitarra (para url relativas dentro del docuemnto para otros documetnos html)
+<table></table> (etiqueta pra ahcer tablas)
+<thead></thead> (cabezera de la tabla)
+	<tr></tr>( hacer un fila en un tabla)
+	<th></th> (una cela dentro de una fil)
+	<th></th> (final de cabezera)
+	<td></td> (celda normal)
+<tbody></tbody> (cuerpo de la tabla)
+
+Pseudoelementos
+

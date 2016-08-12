@@ -34,5 +34,31 @@ article h3{
 	border-radius: 10px 10px 10px 10px;(manijas del reloj y si es cuadrado a redondon con 50%);
 	none (permite desacrivar una propiedad);
 	text-decoration: none; (que no este subrayado)
+
+	.padre{
+		display: flex;
+		justify-content: flex-start; (se alinena desde la izquierda)
+		justify-content: flex-end; (elemento se alineen dese la izquierta)
+		justify-content: center; (para que se centren)
+		justify-content: space-around; (mira tanto los margenes izquierdo y derechos y lo ahce del lmismo tamaño)
+		justify-content: space-between; (entre 2 elementos es el mismo tamaño)
+		flex-wrap: nowrap; (para no mandar el hijo abajo)
+		flex-wrap: wrap; (para mandar los hijos abajo)
+		flex-direction: row; ( pone los elementos en fila)
+		align-items: center; (para central el contenido verticalmente)
+		flex-direction: column; (los pone fle en forma vertical)
+		justify-content: center;los justifica y centra el contenido de acuerdo a la direccion del flex;
+
+	}
 }
 
+Siempre usar flexbox
+
+.col1, .col2{ //para dar estilo para dos clases
+	border-collapse: hace que los bordes se una;
+}
+
+.menu li:after{ despues de ese elemento colocar 
+	content: '123';
+
+}
