@@ -155,3 +155,4 @@ index.html#guitarra (para url relativas dentro del docuemnto para otros documetn
 
 Pseudoelementos
 
+CUanod se hacer hover se puede afectar igualemnte a los hijos con la animaicon

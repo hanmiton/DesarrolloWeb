@@ -60,5 +60,53 @@ Siempre usar flexbox
 
 .menu li:after{ despues de ese elemento colocar 
 	content: '123';
+	background-size: cover; (pra qeu cubra todo el backgourd ocn la mejor distribucion);
+	cursor: pointer; q cuando pase seactive par dar click
+	!important (es para que se sobreponga a cuaquier estilo)
 
+
+}
+ 
+input, textarea{
+	outline: 0; /la linea cuan se lselecciona un input 
+}
+
+input:facus, textarea:focus{ // cuando se hace focus en un input
+	b
+}
+
+
+cambiando color
+.post:hover{ //accion que se realiza cuando se hace hover sobre el elemento
+	transition: tiempo que se demore en cambiar a otro estado;
+}
+
+.post:hover img{//afectar a los hijos q se hace jover
+	tranform: scale(1.5); //para modifica un emento
+}
+
+se peuden podificar las transiciones de los hijso y poner el tiempo que se deseee
+
+transicion cambio de atributos en un intervalo de teimpo
+
+.transicion{
+	duration aceleracion propiedades
+}
+
+.transicion{
+	transition-duration: 3s; (duraicon del a transicion)
+	transition-property: opacity()
+	transition	
+	font-weight: 600; (cambiar peso de la fuetn solo vale numericos)
+
+}
+
+.rotacion:hover{
+	transform: rotate(350deg); (se recibe en grados)
+	transform: scale(2);(la escala va de 0-1)
+	transform: skew(90deg);(igual grados)
+	transform: translateX(50px);(afecta al eje x)
+	transform: translate3d(50px, 20px, 50px); si pude mover el elemento en 3d
+	perspective: 1000px; (se da fondo de profunidad);
+	transform: rotate() scale() ;
 }
