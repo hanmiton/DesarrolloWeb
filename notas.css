@@ -169,5 +169,18 @@ vh unidades de acuerdo a la pantalla
  	align-items: center; (centrar manera vertical flex)
  }
 
- 
+
+ }
+
+ //procesando con post-nested
+
+ .InvieHero{
+ 	padding: 20px;
+ 	height: 500px;
+ 	&-header{ //nested permite el anidameinto de clases apr aun desarroolo mas rapido
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: space-between;
+
+ 	}
  }

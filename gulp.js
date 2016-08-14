@@ -14,7 +14,8 @@ gulp.task('serve',function(){  //nomre de la tarea y fuoncion callback a ejecuta
 gulp.task('css', function(){
 //.piepe son funcoines de tipo tuberia
 	var processor = [
-		autoprefixer({browser: ['> 5%', 'ie 8']}) //para poner prefijos para q entiendan la mayoria de navegadores
+		autoprefixer({browser: ['> 5%', 'ie 8']}),//para poner prefijos para q entiendan la mayoria de navegadores
+		cssnested //para poder codificar ocmo en un preprocesador
 	]
 	return gulp.src('./src/*.css')  //toamdno orign de lso datos de css
 		.pipe(postcss(Processors)) // pasando codigo de postcss a css

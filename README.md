@@ -217,3 +217,8 @@ Crear ficheros de gitignore
 autoprefixer pluigin para  añadir prefijos par aque funcione en todos los navegadores
 
 nota: tener en cunato que ahi que toamr en cuenta el orden de los plugin s para que funcione ver la transformacion
+
+x|
+
+instalar plugin
+npm install --save-dev psotcss-nested
