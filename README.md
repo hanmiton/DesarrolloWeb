@@ -189,3 +189,19 @@ Vistas
 paletas de color 
 coolor.co
 
+
+margin
+
+PostCss
+
+AutoPrefixes 
+	poniedno prefijos para hacer ocmpatible en el mayo nuemro de navegadores
+CssNext
+	usar el css del futuro hoy
+css modules
+	para hacer modualr css
+
+BEM(BLOQUE-ELEMENTO-MODIFICADOR)
+<section class="inviehero"> (bloque)
+	<header class="InvieHero-header InvieHero-header--radio"></header>(bloque-elemento) (bloque-elemento--modificador)
+</section>
