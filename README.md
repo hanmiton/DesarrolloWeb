@@ -222,3 +222,9 @@ x|
 
 instalar plugin
 npm install --save-dev psotcss-nested
+
+exite un paquete que tiene todas las funcionalidades anterioere sen un oslo paquete cssnext
+
+estudair css-next
+
+npm install --save-dev postcss-cssnext
