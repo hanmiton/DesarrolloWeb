@@ -211,4 +211,9 @@ Instalacin de post css como global
 	npm install -g postcss
 Crear ficheros de gitignore
 	node_modules
+
 </section>
+
+autoprefixer pluigin para  añadir prefijos par aque funcione en todos los navegadores
+
+nota: tener en cunato que ahi que toamr en cuenta el orden de los plugin s para que funcione ver la transformacion
