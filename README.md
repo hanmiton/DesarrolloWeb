@@ -228,3 +228,12 @@ exite un paquete que tiene todas las funcionalidades anterioere sen un oslo paqu
 estudair css-next
 
 npm install --save-dev postcss-cssnext
+
+mixins css
+	para al reutilizaiocn de codigo en css
+
+npm instal --save-dev-psotcss-mixins
+	@define-mixin //definiendo un mixin
+	@mixin usando un mixin
+
+@import nos van a permitir modularizar nuestro codigo css

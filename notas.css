@@ -48,7 +48,16 @@ article h3{
 		align-items: center; (para central el contenido verticalmente)
 		flex-direction: column; (los pone fle en forma vertical)
 		justify-content: center;los justifica y centra el contenido de acuerdo a la direccion del flex;
-
+		/* Todos los elementos de tipo "p" con atributo class="aviso" */
+p.aviso { ... }
+ 
+/* Todos los elementos con atributo class="aviso" que estén dentro
+   de cualquier elemento de tipo "p" */
+p .aviso { ... }
+ 
+/* Todos los elementos "p" de la página y todos los elementos con
+   atributo class="aviso" de la página */
+p, .aviso { ... }
 	}
 }
 
@@ -183,4 +192,34 @@ vh unidades de acuerdo a la pantalla
  		justify-content: space-between;
 
  	}
+
+ .head{
+ 	lost-center: 800px; (centra con un tamaño especifico)
+ 	lost-utility: clearfix; (para limpiar espacion que quedan)
+ 	lost-column: 1/5; (divide la grilla en 5 columnas)
+
  }
+ }
+
+ @media(--mobile){ //me dia query cuando cambioi de dispositivo cambio la forma de presentares eel codigo
+ 	lost-column: 1/1;
+ }
+
+ uasr en lost-column en flex y lost-center (para que cssnext transforme el codigo con flex)
+
+manaera mas facil par que transformee n next
+@lost flexbox flex; //con esot utiliza flex pra la transforamcion
+
+minificacion del codigo con cssnext
+csswring
+instalacino de plugin pra tipografais responsive
+npm install --save-dev gulp-rucksack
+
+font-size: responsive 32px 70px;
+
+head{
+	background: url();
+	transition-timing-function: 
+	transition-duration
+	transition-pro
+} 
