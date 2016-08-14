@@ -204,4 +204,11 @@ css modules
 BEM(BLOQUE-ELEMENTO-MODIFICADOR)
 <section class="inviehero"> (bloque)
 	<header class="InvieHero-header InvieHero-header--radio"></header>(bloque-elemento) (bloque-elemento--modificador)
+
+Instalacion de packetes 
+	npm install --save-dev gulp gulp-postcss brower-sync
+Instalacin de post css como global
+	npm install -g postcss
+Crear ficheros de gitignore
+	node_modules
 </section>
