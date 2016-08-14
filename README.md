@@ -156,3 +156,36 @@ index.html#guitarra (para url relativas dentro del docuemnto para otros documetn
 Pseudoelementos
 
 CUanod se hacer hover se puede afectar igualemnte a los hijos con la animaicon
+
+
+ememt (usaro siempre)
+Emment
+.portada#id[att=""] para crear clase id y attr en emmet
+
+Parallix
+<script type="text/javascript">
+	var $iphone = document.getElementById('iphone');
+	window.addEventListener('scroll', function(e){
+		%iphone.style.marginTop = window.scrollY + 'px';
+	})
+</script>	
+
+<script type="text/javascript">
+	$contenido.offsetHeight// cuanto mide dicho elemento ocn javascript
+
+Sugerrencia stack d platzi
+Vistas
+	React.js (vistas dinamicas)
+	Superagent (Ayuda con ajax y en todos los navegadores)
+	Redux (Manejo de datos)
+	Python(Lenguaje de programacion)
+	Django(Framework pra desarrollo web Python)
+	Stylus(Dividir por componenetes con menos codigo Preprocesador de css3)
+	Moment (manejo de fechas)
+	Backbone(ver qeu es)
+	animation: 1s nombre_animacion;
+</script>
+
+paletas de color 
+coolor.co
+
